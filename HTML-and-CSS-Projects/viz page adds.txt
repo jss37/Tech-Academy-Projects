@@ -1,0 +1,5 @@
+1) https://usafacts.org/data/topics/people-society/health/
+2) https://eig.org/distressed-communities/2022-dci-interactive-map/
+3) https://covidtracker.pogo.org/
+4) https://apps.urban.org/features/debt-interactive-map/?type=medical&variable=medcoll
+5) https://healthatlas.ucsf.edu/welcome?active=covid_new_cases_percap&geography=counties

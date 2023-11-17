@@ -1,0 +1,21 @@
+body {
+background-color:grey;
+color:red;
+}
+
+tr, th {
+	background-color:black;
+	color:red;
+	font-size:35px;
+}
+
+table {
+border: 5px solid red;
+}
+
+td:hover {
+background-color:white;
+}
+tr:hover {
+background-color:white;
+}

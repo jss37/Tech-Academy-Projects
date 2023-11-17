@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+font color {red}
+<style>
+Help
+<div style font color="#31cace" size="2">
+ I love this shade of blue</div>
+
+</html>

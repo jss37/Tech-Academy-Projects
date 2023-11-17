@@ -1,0 +1,20 @@
+
+<!DOCTYPE hmtl>
+<html lang="en">
+	<head>
+		<title>Kenny Omega Fanpage</title>
+		<meta charset= "utf-8">
+	</head>
+	<body>
+<nav>
+	<a href="Assignment.html">Home</a>
+	<a href="Dog.html">Dog Picture</a>
+	<a href="Dog_Video.html">Dog Video</a>
+</nav>
+<h1>hi everyone i like kenny omega and so should u!</h1>
+<p> kenny omeag is a wrestler from japan but also canada</p>
+<h3>he hates will ospreay and so do i!</h3>
+<h6>but he loves kota ibushi and so do i!</h6>
+<a href="Dog.html">Dog Image</a>
+	</body>
+</html>

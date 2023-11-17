@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0c5449;
+   margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+ margin-left: 30px;
+  background-color: #48756e;
+opacity: 1;
+background-image:  radial-gradient(#2c2c2c 0.6000000000000001px, transparent 0.6000000000000001px), radial-gradient(#2c2c2c 0.6000000000000001px, #48756e 0.6000000000000001px);
+background-size: 24px 24px;
+background-position: 0 0,12px 12px;
+}
+
+/* Style the header */
+header {
+  background-color: #094038;
+  padding: 5px;
+  text-align: left;
+  font-size: 45px;
+  color: white;
+ 
+}
+a:link {
+	color:#ffc842;
+	text-decoration:none;
+}
+a:visited {
+	color:#ffc842;
+	text-decoration:none;
+}
+a:hover {
+	color:white;
+	text-decoration:underline;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 30%;
+  height: 100%;
+text-align:center;
+  background-color: #094038;
+  color: white;
+  padding: 20px;
+}
+
+button {
+float: left;
+  width: 20%;
+  height: 100%;
+text-align:center;
+  background-color: #094038;
+  color: white;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  height: 100%; /* only for demonstration, should be removed */
+  background-image: url('https://i.imgur.com/XKT7G5L.png');
+background-repeat: no-repeat;
+background-size: 80% 70%;
+background-position:right;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0D5E52;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  height: 190px;
+}
+
+
+}
+</style>
+</head>
+<body>
+<header>
+  <img src="https://i.imgur.com/DSfQDE9.png"> DATA VISUALIZATIONS
+</header>
+<section>
+  <article>
+<button style="font-size:30px;">
+<a href="https://crcrjx5guewzuatspkobdg.on.drv.tw/template.html">Data Stories</a>
+</button>
+<br>
+  <br>
+  <br>
+<br>
+
+<h1><b>A collection of visualization tools</b></h2>
+If your tool is missing and want it shared here, email us at phoenix@wayne.edu
+<br>
+<br>
+<br>
+<br>
+
+<h3>National Maps<h3>
+  <a href="https://www.atsdr.cdc.gov/placeandhealth/eji/index.html"><img src="https://i.imgur.com/8enSKFM.png" alt="Environmental Justice Index" style= "position:relative;left:100px;"></a>
+<a href="https://www.hsph.harvard.edu/population-development/covid-19-metrics-for-united-states-congressional-districts/"><img src="https://i.imgur.com/ZixLsA0.png" 
+alt="COVID-19 Metrics for United States Congressional Districts" style= "position:relative;left:100px;"></a>
+<a href="https://www.cdc.gov/drugoverdose/fatal/dashboard/index.html"><img src="https://i.imgur.com/GN89L9H.png" 
+alt="SUDORS Dashboard-Fatal Overdose Data" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+<a href="https://projects.propublica.org/toxmap/"><img src="https://i.imgur.com/GatM6UR.png" alt="ProPublica-Cancer Causing Air Pollution Map" style= "position:relative;left:100px;"></a>
+<a href="https://opportunityatlas.org/" ><img src="https://i.imgur.com/qgMQoh7.png" alt="Opportunity Atlas" style= "position:relative;left:100px;"></a>
+<a href="https://public.tableau.com/views/StateandNationalOverdoseWebdashboard/Homepage?%3Alanguage=en&%3Adisplay_count=y&%3Aorigin=viz_share_link%3A&%3AshowVizHome=no%3Aembed&%3Atoolbar=no" ><img src="https://i.imgur.com/wevyT9i.pngg" alt="Workbook: State and National Overdose Web Dashboard" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+<a href="https://covid.cdc.gov/covid-data-tracker/#datatracker-home"><img src="https://i.imgur.com/QqYPYeR.png" alt="CDC Covid Tracker" style = "position:relative;left:100px;"></a>
+<a href="https://www.diversitydatakids.org/child-opportunity-index"><img src="https://i.imgur.com/Kk5QEcv.png" 
+alt="Child Opportunity Index" style= "position:relative;left:100px;"></a>
+<a href="https://www.gunviolencearchive.org/query/d0a4ee6f-b88b-4dcf-8ca8-cebd696c670f/map"><img src="https://i.imgur.com/oDH7UD6.png" 
+alt="Gun Violence Archive" style="position:relative;left:100px;"></a>
+<br>
+<br>
+<a href="https://livabilityindex.aarp.org/"><img src=https://i.imgur.com/BwHFZoT.png" alt="AARP Livability Index" style= "position:relative;left:100px;"></a>
+<a href="https://www.americashealthrankings.org/"><img src="https://i.imgur.com/Lqgz7Ch.jpg" alt="America's Health Rankings" style= "position:relative;left:100px;"></a>
+<a href="https://realtimeinequality.org/"><img src="https://i.imgur.com/9UrW5Rj.png" alt="Realtime Inequality" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+
+
+<a href="https://www.usnews.com/news/healthiest-communities/rankings"><img src="https://i.imgur.com/PMOAemm.png" alt="Healthiest Communities Rankings 2022" style= "position:relative;left:100px;"></a>
+<a href="https://measureofamerica.org/maps/"><img src="https://i.imgur.com/EHdvNYb.png" alt="Measure of America-Mapping America" style= "position:relative;left:100px;"></a>
+<a href="https://nationalequityatlas.org/"><img src="https://i.imgur.com/jY64Sn4.jpg" alt="National Equity Atlas" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+<a href="https://www.policymap.com/" ><img src="https://i.imgur.com/LKFPH62.jpg" alt="PolicyMap" style= "position:relative;left:100px"></a>
+<a href="https://www.countyhealthrankings.org/" ><img src="https://i.imgur.com/jtJcjfj.jpg" 
+alt="County Health Rankings and Roadmaps" style= "position:relative;left:100px"></a>
+<a href="https://aqicn.org/map/world/" ><img src="https://i.imgur.com/NPbxK9V.png" alt="Air Pollution in World" style= "position:relative;left:100px"></a>
+<br>
+<br>
+<a href="https://map.healthyplacesindex.org/?redirect=false" ><img src="https://i.imgur.com/80ifHF6.jpg" alt="California Healthy Places Index" style= "position:relative;left:100px;"></a>
+<a href="https://www.cityhealthdashboard.com/mi/detroit/compare-cities?metric=36&metricYearRange=2017%2C+1+Year+Modeled+Estimate" ><img src="https://i.imgur.com/9ievlIK.png" 
+alt="City Health Dashboard" style= "position:relative;left:100px;"></a>
+<a href="https://www.dartmouthatlas.org/interactive-apps/medical-discharges/" ><img src="https://i.imgur.com/v8P7pHq.png" 
+alt="Medical Discharges-Dartmouth Atlas Project" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+<a href="https://enviroatlas.epa.gov/enviroatlas/interactivemap/" ><img src="https://i.imgur.com/vAVnVPl.png" 
+alt="EnviroAtlas Interactive Map" style= "position:relative;left:100px"></a>
+<a href="https://ourworldindata.org/covid-excess-mortality" ><img src="https://i.imgur.com/DUdl3dC.png" alt="Our World In Data" style= "position:relative;left:100px;"></a>
+
+<a href="https://udsmapper.org/" ><img src="https://i.imgur.com/rod6AgF.png" alt="UDS Mapper" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+
+<a href="https://nationalequityatlas.org/" ><img src="https://i.imgur.com/Qppn606.png" alt="National Equity Atlas" style= "position:relative;left:100px;"></a>
+<a href="https://www.neighborhoodatlas.medicine.wisc.edu/ml" ><img src="https://i.imgur.com/lZpC7vu.png" alt="Neighborhood Atlas" style= "position:relative;left:100px;"></a>
+<a href="https://www.nytimes.com/interactive/2021/us/covid-cases.html" ><img src="https://i.imgur.com/gKpZ46Y.png" 
+alt="New York Times Covid Tracker" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+
+<a href="https://theuscovidatlas.org/" ><img src="https://i.imgur.com/SaxkM7h.png" alt="COVID-19 Atlas" style= "position:relative;left:100px;"></a>
+<a href="https://coronavirus.jhu.edu/us-map" ><img src="https://i.imgur.com/40TOgXo.png" alt="COVID-19 United States Cases by County-
+Johns Hopkins University" style= "position:relative;left:100px;"></a>
+<a href="https://www.esphealth.org/riskscape" ><img src="https://i.imgur.com/wlswPnm.png" alt="RiskScape" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+<a href="https://usafacts.org/data/topics/people-society/health/" ><img src="https://i.imgur.com/7kP069U.jpg" alt="COVID-19 Atlas" style= "position:relative;left:100px;"></a>
+<a href="https://covidtracker.pogo.org/" ><img src="https://i.imgur.com/tEUyGRF.jpg" alt="COVID-19 United States Cases by County-
+Johns Hopkins University" style= "position:relative;left:100px;"></a>
+<a href="https://apps.urban.org/features/debt-interactive-map/?type=medical&variable=medcoll" ><img src="https://i.imgur.com/26Da4qe.jpg" alt="RiskScape" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+<a href="https://eig.org/distressed-communities/2022-dci-interactive-map/" ><img src="https://i.imgur.com/1fWOwhC.jpg" alt="COVID-19 Atlas" style= "position:relative;left:100px;"></a>
+<h3>Subnational Maps</h3>
+<a href="https://healthexplorer.phila.gov/" ><img src="https://i.imgur.com/5ZkDRHV.png" style= "position:relative;left:100px;" 
+alt="City of Philadelphia Community Health Explorer"></a>
+<a href="https://data.detroitmi.gov/" ><img src="https://i.imgur.com/Ukzg1h5.png" alt="City of Detroit-RMS Crime Incidents" style= "position:relative;left:100px;"></a>
+<a href="https://detroitography.com/" ><img src="https://i.imgur.com/gMstdEj.png" alt="Detroitography" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+<a href="https://map.healthyplacesindex.org/?redirect=false" ><img src="https://i.imgur.com/80ifHF6.jpg" alt="California Healthy Places Index" style= "position:relative;left:100px;"></a>
+<a href="https://chicagohealthatlas.org/indicators/HCSHYT?topic=hypertension"><img src="https://i.imgur.com/tcRIGWW.png" alt="Chicago Health Atlas-Hypertension Dashboard" style= "position:relative;left:100px;"></a>
+<a href="https://www.michigan.gov/mdhhs/keep-mi-healthy/chronicdiseases/cardiovascular"><img src="https://i.imgur.com/bOXp8dj.png" 
+alt="MDHHS-Cardiovascular Health, Nutrition" style= "position:relative;left:100px;"></a>
+<br>
+<br>
+<a href="https://www.healthyneo.org/indexsuite/index/healthequityl"><img src="https://i.imgur.com/7kP069U.jpg" alt="Healthy Northeast Ohio - Healthy Equity Index" style= "position:relative;left:100px;"></a>
+<a href="https://healthatlas.ucsf.edu/welcome?active=covid_new_cases_percap&geography=counties"><img src="https://i.imgur.com/uo2zCoB.jpg" alt="Healthy Northeast Ohio - Healthy Equity Index" style= "position:relative;left:100px;"></a>
+<h3>Other Visualizations</h3>
+<br>
+<br>
+</div>
+</div>
+</p>
+  </article>
+</section>
+ <nav>
+<h1> Population Health Outcomes Information Exchange
+</h1>
+<em>Our Mission is to Connect Communities with Information that Drives Positive Social Changes in Pursuit of Lifespan Equality</em>
+  </nav>
+<footer>
+  <h1 style="color:#ffc842;">We Help With Data To Help Others
+</h1>
+If you have something you would like to see added to this page,
+contact us at PHOENIX@wayne.edu
+</footer>
+
+<script src="https://www.drv.tw/inc/wd.js?s=crcrjx5guewzuatspkobdg"></script></body>
+</html>
