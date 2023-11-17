@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>HTML1</title>
+    <script src="./JS/main.js"></script>
+    <canvas id="Can" width="300" height="300" style="border: 10px solid blue;"></canvas>
+    <script>var c = document.getElementById("Can");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95,50,40,0,2*Math.PI);
+        ctx.stroke();
+        const grd = ctx.createLinearGradient(0, 0, 170, 0);
+grd.addColorStop(0, "black");
+grd.addColorStop(1, "white");
+
+ctx.fillStyle = grd;
+ctx.fillRect(20, 20, 150, 100);</script>
+</head>
+<body>
+ <h3>Pick a color from the list</h3>   
+ <ul>
+    <li>Red</li>
+    <li>Purple</li>
+    <li>Blue</li>
+    <li>Pink</li>
+    <li>Black</li>
+    <li>White</li>
+ </ul>
+ <h3>Enter your choice below</h3>
+ <input id="Color_Input" type="text">
+ <button onclick="Color_Function()">Submit</button>
+ <p id="Output"></p>
+ <br>
+ <h1 class="Click">This text will change</h1>
+ <h3 class="Click">This text will not change</h3>
+ <button onclick="Hello_World_Function()">Click me!</button>
+ 
+</body>
+</html>
