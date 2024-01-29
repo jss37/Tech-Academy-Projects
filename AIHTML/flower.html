@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Flowers</title>
+    <link rel="stylesheet" type="text/css" href="./flower.css">
+</head>
+
+<body>
+    <header>
+        <h1>BloomBurst Flowers</h1>
+    </header>
+
+    <nav>
+        <a href="#rose">Rose</a>
+        <a href="#lily">Lily</a>
+        <a href="#tulip">Tulip</a>
+        <a href="#sunflower">Sunflower</a>
+        <a href="#orchid">Orchid</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="about">
+        <h2>About Our Company</h2>
+        <p>Welcome to BloomBurst – your premier destination for exquisite and enchanting flowers! At BloomBurst, we believe in the magic and beauty that flowers bring into our lives. As a leading flower company, we are dedicated to curating a diverse collection of the finest blooms from around the world. Each flower in our selection is carefully chosen to add a touch of elegance and vibrancy to any occasion. Whether it's the timeless charm of roses, the grace of lilies, the playful allure of tulips, the sunny warmth of sunflowers, or the exotic allure of orchids – BloomBurst ensures that each bloom tells a unique story.</p>
+
+        <p>Our commitment goes beyond just delivering flowers; we strive to create memorable experiences. From weddings to birthdays, anniversaries to celebrations of life, BloomBurst is here to be a part of your special moments. With a passion for flowers and a dedication to customer satisfaction, BloomBurst is not just a flower company; it's a celebration of nature's beauty. Explore our collection, and let the language of flowers speak volumes on your behalf. Join us in the enchanting world of BloomBurst, where every petal tells a story, and every blossom is a work of art.</p>
+    </div>
+
+    <div class="flower-container">
+        <div class="flower" id="rose">
+            <img src="./rose.jpg" alt="Rose">
+            <h2>Rose</h2>
+            <p>Description of the rose flower.</p>
+        </div>
+
+        <div class="flower" id="lily">
+            <img src="./lily.jpg" alt="Lily">
+            <h2>Lily</h2>
+            <p>Description of the lily flower.</p>
+        </div>
+
+        <div class="flower" id="tulip">
+            <img src="./tulip.jpg" alt="Tulip">
+            <h2>Tulip</h2>
+            <p>Description of the tulip flower.</p>
+        </div>
+
+        <div class="flower" id="sunflower">
+            <img src="./sunflower.jpg" alt="Sunflower">
+            <h2>Sunflower</h2>
+            <p>Description of the sunflower.</p>
+        </div>
+
+        <div class="flower" id="orchid">
+            <img src="./orchid.jpg" alt="Orchid">
+            <h2>Orchid</h2>
+            <p>Description of the orchid flower.</p>
+        </div>
+    </div>
+
+    <form action="submit_form.php" method="post" id="contact">
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Scroll to Top button -->
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll to Top</button>
+
+    <!-- Include lightbox2 JS -->
+    <script src="path/to/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+    <!-- Include external JavaScript file -->
+    <script src="./flower.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+/* styles.css */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin: 20px;
+    color: #333;
+    background-color: #f0f8ff; /* Light blue background color */
+}
+
+header {
+    background-color: #4682b4; /* Medium blue header background color */
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flower {
+    text-align: center;
+    margin: 20px;
+    flex: 0 0 calc(33.33% - 40px);
+    max-width: calc(33.33% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+.flower img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about {
+    margin: 50px 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    color: #008080; /* Dark teal color */
+}
+
+input, textarea {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
